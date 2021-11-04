@@ -6,6 +6,8 @@ async function fetchData(url) {  //Uniform Resource Locator
 
     alert(obj.setup) 
 
+    
+
     /*if (joke.flags.nsfw || joke.flags.racist || joke.flags.sexist   ){
         let tooRude=document.createElement("H2")    
         document.body.appendChild(tooRude)
@@ -25,8 +27,9 @@ async function fetchData(url) {  //Uniform Resource Locator
    
   }
 
+
   
-  fetchData("https://v2.jokeapi.dev/joke/any") //Hit the endpoint of the service
+  fetchData("https://api.imgflip.com/get_memes") //Hit the endpoint of the service
   
 
 
